@@ -1,24 +1,23 @@
 $(document).ready(() => {
   
-  $('.shoe-details').show();
+  $('.food-details').show();
   
   $('.more-details-button').on('click', event => {
     $(event.currentTarget).closest('.product-details').next().toggle()
   });  
   
-  $('.shoe-details li').on('click', event => {
+  $('.food-details li').on('click', event => {
     $(event.currentTarget).addClass('active');
     
     $(event.currentTarget).siblings().removeClass('active')
     
-    $(event.currentTarget).closest('.shoe-details').children().removeClass('disabled')
+    $(event.currentTarget).closest('.food-details').children().removeClass('disabled')
     
     
   });
   
   
-  
-  ///////////////////////////////////////////
+
   $('.login-button').on('click', () => {
     $('.login-form').toggle();
     $('.login-button').toggleClass('button-active');
