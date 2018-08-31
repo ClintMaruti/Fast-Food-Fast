@@ -27,9 +27,8 @@
 <li class="menu-item "><a href="index.html" >Login</a></li>
 <li class="menu-item"><a href="signup.html" >Signup</a></li>
 <li class="menu-item "><a href="order.html" >Order</a></li>
-<li class="menu-item"><a href="admin.html" >Admin</a></li>
+<li class="menu-item "><a href="admin.html" >Admin</a></li>
 <li class="menu-item active"><a href="history.html" >History</a></li>
-
 
 </ul>
 </nav>
@@ -41,50 +40,41 @@
 
 <section  >
 <h4 class="title">
-<span class="text"><span class="line">Admin <strong>Panel</strong></span></span>
+<span class="text"><span class="line"> View<strong> History</strong></span></span>
 </h4>
 
-<form style="float: right; margin: 0 1.5%;">
-<button class="juiced">Add Food Item</button>
-<button class="juiced">Ordered Items</button>
 
-</form>
     
 <!--Edit, Delete Food items-->
-<div class="container">
-<div class="">
-<img src="image/1.jpg"/>
-<div class="decr">
-<p>ZINGER® TOWER MEAL</p>
+<div class="container2">
+
+<h1> Order Review</h1>
+<div class="tabContainer">
+<div class="buttonContainer">
+<button onclick="showPanel(0,'rgba(85,82,76,0.5)')">Active Orders</button>
+<button onclick="showPanel(1,'rgba(85,82,76,0.5)')">Past Orders</button>
 </div>
-<div class=" edit">
-<button>Edit</button>
-<div style="height: 1rem"></div>
-<button>Delete</button>
+<div class="tabPanel">
+<table style="width: 100%; padding: 1rem;">
+<tr>
+<th>Order#</th>
+<th>Item</th>
+<th>Quantity</th>
+<th>Total</th>
+</tr>
+<tr>
+<td>12458</td>
+<td>Fillet Burger</td>
+<td>1</td>  
+<td>Ksh. 1150</td>
+</tr>
+</table> 
 </div>
+<div class="tabPanel">No Order Available</div>
+
 </div>
-<div class="">
-<img src="image/2.jpg"/>
-<div class="decr">
-<p>FILLET BURGER MEAL</p>
-</div>
-<div class=" edit">
-<button>Edit</button>
-<div style="height: 1rem"></div>
-<button>Delete</button>
-</div>
-</div>
-<div class="">
-<div class="decr">
-<p>FILLET BURGER MEAL</p>
-</div>
-<img src="image/3.jpg"/>
-<div class=" edit">
-<button>Edit</button>
-<div style="height: 1rem"></div>
-<button>Delete</button>
-</div>
-</div>
+
+
 </div>
 
 
@@ -109,7 +99,7 @@ crossorigin="anonymous"></script>
 
 <script src='js/slide.js'></script> 
 <script src='js/main.js'></script> 
-
+<script src='js/tab.js'></script>
 <!--End Java Script-->
 </body>
 </html>
