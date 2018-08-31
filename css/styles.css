@@ -548,3 +548,18 @@ font-size: 14px;
 -webkit-transition: all 0.3 ease;
 transition: all 0.3 ease;
 cursor: pointer;}
+
+.product-box button{
+font-family: "Roboto", sans-serif;
+text-transform: uppercase;
+outline: 0;
+background: #ffb508;
+
+border: 0;
+padding: 15px;
+color: #e5e4e2;
+font-size: 14px;
+-webkit-transition: all 0.3 ease;
+transition: all 0.3 ease;
+cursor: pointer;}
+}
