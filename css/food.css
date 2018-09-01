@@ -120,3 +120,132 @@ color: #fff;
 }
 li span{
 text-align: center;
+}
+    /* ------------------------------------------
+EXTENDED CSS
+--------------------------------------------- */
+    
+.main{
+width: 1000px;
+height: auto;
+margin: 0 auto;
+}
+.top-bar {
+width: 100%;
+height: 5px;
+background-color: #ffb508; 
+}
+.cart_btn {
+    width: 100px;
+    height: 50px;
+    background-color: #ffb505;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    float: right;
+}
+.cart_btn img {
+    padding: 0.8rem;
+    float: left;
+}
+.cart_btn span{
+    line-height: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.food_section{
+    width: 100%;
+    height: auto;
+    float: left
+}
+.food_section_title{
+    display: inline-block;
+    float: left;
+    width: 100%;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 15px;
+    
+}
+.food_one {
+    float: left;
+    width: 230px;
+    height: auto;
+    border-radius: 7px;
+    background-color: white;
+    padding-bottom: 15px;
+    border-bottom: 2px solid darkgray;
+}
+.food_image{
+    width: 230px;
+    float: left;
+    border: 1px solid;
+    overflow: hidden;
+}
+.food_image img {
+    width: 100%;
+}
+.food_descr{
+    width: 230px;
+    float: left;
+    margin-top: 10px;
+    
+}
+.food_descr h4 {
+    font-weight: normal;
+}
+.star_rating {
+    float: left;
+    width: 230px;
+    margin-top: 8px;
+}
+.star_rating img{
+    width: 18px;
+    padding-right: 5px;
+    float: left;
+    
+}
+.food_text{
+    width: 230px;
+    float: left;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.food_price{
+    width: 230px;
+    float: left;
+    margin-top: 8px;
+    
+}
+.price {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+.button {
+    float: right;
+    background-color: #ffb505;
+    padding: 5px;
+    border-radius: 5px;
+    color: #cd3737;
+    margin-right: 10px;
+    
+}
+.food_one {
+
+    margin-right: 10px;
+    }
+.food_two {
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+.food_three {
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+.food_four {
+    margin-left: 10px;
+    margin-right: 10px;
+    }
