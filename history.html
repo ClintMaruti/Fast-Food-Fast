@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Fast Food Fast</title>
+<meta name="Clint" content="Fast Food">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/food.css">
+
+</head>
+<body>
+
+<!--Menu-->
+<header>
+<a href="index.html" class="logo">Fast Food Fast</a>
+<nav class="nav-collapse">
+<ul>
+<li class="menu-item "><a href="index.html" >Login</a></li>
+<li class="menu-item"><a href="signup.html" >Signup</a></li>
+<li class="menu-item "><a href="order.html" >Order</a></li>
+<li class="menu-item "><a href="admin.html" >Admin</a></li>
+<li class="menu-item active"><a href="history.html" >History</a></li>
+
+</ul>
+</nav>
+</header>
+<!--End Menu-->
+
+
+<div class="group">
+
+<section  >
+<h4 class="title">
+<span class="text"><span class="line"> View<strong> History</strong></span></span>
+</h4>
+
+
+    
+<!--Edit, Delete Food items-->
+<div class="container2">
+
+<h1> Order Review</h1>
+<div class="tabContainer">
+<div class="buttonContainer">
+<button onclick="showPanel(0,'rgba(85,82,76,0.5)')">Active Orders</button>
+<button onclick="showPanel(1,'rgba(85,82,76,0.5)')">Past Orders</button>
+</div>
+<div class="tabPanel">
+<table style="width: 100%; padding: 1rem;">
+<tr>
+<th>Order#</th>
+<th>Item</th>
+<th>Quantity</th>
+<th>Total</th>
+</tr>
+<tr>
+<td>12458</td>
+<td>Fillet Burger</td>
+<td>1</td>  
+<td>Ksh. 1150</td>
+</tr>
+</table> 
+</div>
+<div class="tabPanel">No Order Available</div>
+
+</div>
+
+
+</div>
+
+
+<!--End -->
+</section>
+
+</div>
+
+<!--Footer-->
+<footer id="fill">
+<div class="copyright">
+&copy; Clint Maruti. All rights reserved.
+</div>
+</footer>
+
+<!--Java Script-->
+<script
+src="https://code.jquery.com/jquery-3.2.1.min.js"
+integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+crossorigin="anonymous"></script>
+
+
+<script src='js/slide.js'></script> 
+<script src='js/main.js'></script> 
+<script src='js/tab.js'></script>
+<!--End Java Script-->
+</body>
+</html>
