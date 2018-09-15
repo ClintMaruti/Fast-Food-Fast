@@ -1,0 +1,251 @@
+/* ------------------------------------------
+FOOD ITEM
+--------------------------------------------- */
+#container {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* ------------------------------------------
+FOOD ITEM
+--------------------------------------------- */
+
+.product-box{
+	text-align:center;
+	padding-bottom:15px;
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+	position: relative;
+	background-color:#f8f8f8;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+
+}
+
+.product-box img{
+	overflow:hidden;
+}
+
+.price{
+	font-size:20px;
+	font-weight:300;
+	padding:10px 0;
+    color: black}
+/* end product box */
+
+.thumbnails li{
+    
+		border-bottom:1px solid #eee;
+		margin-bottom:0;
+}
+.descr_wrap{
+    background-color: #eee;
+
+}
+.product-box button{
+font-family: "Roboto", sans-serif;
+text-transform: uppercase;
+outline: 0;
+background: #ffb508;
+border: 0;
+padding: 15px;
+color: #e5e4e2;
+font-size: 14px;
+-webkit-transition: all 0.3 ease;
+transition: all 0.3 ease;
+cursor: pointer;}
+}
+
+/* title style for h4 tag
+----------------------------------------------------------------------------- */
+h4.title{
+	background: url(../image/line_bar.png) 0 8px repeat-x;
+	padding-bottom:5px;
+	margin-bottom:15px;
+	overflow:hidden;
+	text-transform:uppercase;
+	font-size:15px;
+	min-height:27px;
+	width:100%;
+}
+h4.title.m{
+	margin-top:15px;	
+	overflow:hidden;
+	width:100%;
+}
+h4.title strong{
+	color:#eb4800;
+}
+h4.title span.text{
+	background-color:#fff;
+	padding-right:10px;
+}
+h4.title .left{
+	background: url(../images/arrow-pleft.png) #eee no-repeat center center;	
+	margin-right:2px;	
+}
+h4.title .right{
+	background: url(../images/arrow-p.png) #eee no-repeat center center;	
+}
+h4.title .pull-right{
+	background-color:#fff;
+	padding-left:10px;	
+}
+h4.title .left,h4.title .right{
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	cursor: pointer;
+}
+h4.title .left:hover,h4.title .right:hover{
+	background-color:#eb4800;
+}
+h4.title .button:hover{
+	text-decoration: none;
+}
+/* end h4 title style */
+
+ul{
+list-style: none;
+}
+li{
+float: left;
+color: #fff;
+
+}
+li span{
+text-align: center;
+}
+    /* ------------------------------------------
+EXTENDED CSS
+--------------------------------------------- */
+    
+.main{
+width: 1000px;
+height: auto;
+margin: 0 auto;
+}
+.top-bar {
+width: 100%;
+height: 5px;
+background-color: #ffb508; 
+}
+.cart_btn {
+    width: 100px;
+    height: 50px;
+    background-color: #ffb505;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    float: right;
+}
+.cart_btn img {
+    padding: 0.8rem;
+    float: left;
+}
+.cart_btn span{
+    line-height: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.food_section{
+    width: 100%;
+    height: auto;
+    float: left
+}
+.food_section_title{
+    display: inline-block;
+    float: left;
+    width: 100%;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 15px;
+    
+}
+.food_one {
+    float: left;
+    width: 230px;
+    height: auto;
+    border-radius: 7px;
+    background-color: white;
+    padding-bottom: 15px;
+    border-bottom: 2px solid darkgray;
+}
+.food_image{
+    width: 230px;
+    float: left;
+    border: 1px solid;
+    overflow: hidden;
+}
+.food_image img {
+    width: 100%;
+}
+.food_descr{
+    width: 230px;
+    float: left;
+    margin-top: 10px;
+    
+}
+.food_descr h4 {
+    font-weight: normal;
+}
+.star_rating {
+    float: left;
+    width: 230px;
+    margin-top: 8px;
+}
+.star_rating img{
+    width: 18px;
+    padding-right: 5px;
+    float: left;
+    
+}
+.food_text{
+    width: 230px;
+    float: left;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.food_price{
+    width: 230px;
+    float: left;
+    margin-top: 8px;
+    
+}
+.price {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+.button {
+    float: right;
+    background-color: #ffb505;
+    padding: 5px;
+    border-radius: 5px;
+    color: #cd3737;
+    margin-right: 10px;
+    
+}
+.food_one {
+
+    margin-right: 10px;
+    }
+.food_two {
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+.food_three {
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+.food_four {
+    margin-left: 10px;
+    margin-right: 10px;
+    }
